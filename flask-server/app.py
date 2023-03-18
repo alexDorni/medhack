@@ -1,7 +1,7 @@
 from .settings import server
 
-@server.route("/test")
-def test():
+@server.route("/members")
+def test_members():
     return {
-        "test": "working"
+        "members": ["M1", "M2", "M3", "M4"]
     }
