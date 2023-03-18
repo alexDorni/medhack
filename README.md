@@ -8,7 +8,7 @@
  - pip install -r requirements.txt
 
 # Start the development server from /src
- - python manage.py runserver --host=0.0.0.0
+ - flaks run
 
 # Run pytest
 - python -m pytest tests/
